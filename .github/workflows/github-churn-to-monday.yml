@@ -5,7 +5,7 @@ on:
 
 jobs:
   call-gh-pr-metrics-to-monday:
-    uses: saularraffi/.github/workflows/github-churn-to-monday.yml@main
+    uses: saularraffi/test/.github/workflows/github-churn-to-monday.yml@main
     with:
       repo-owner: saularraffi
       repo-name: test
