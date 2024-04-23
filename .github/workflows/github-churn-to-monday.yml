@@ -5,8 +5,11 @@ on:
 
 jobs:
   call-gh-pr-metrics-to-monday:
-    uses: saularraffi/test/.github/workflows/github-churn-to-monday.yml@main
-    with:
-      repo-owner: saularraffi
-      repo-name: test
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call GH PR Metrics to Monday
+        uses: saularraffi/test/.github/workflows/github-churn-to-monday.yml@main
+        with:
+          repo-owner: saularraffi
+          repo-name: test
+        secrets: inherit
