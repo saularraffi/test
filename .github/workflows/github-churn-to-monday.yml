@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-gh-pr-metrics-to-monday:
-    uses: saularraffi/gh-metrics-to-monday/.github/workflows/github-churn-to-monday.yml@main
+    uses: saularraffi/github-metrics/.github/workflows/github-churn-metrics.yml@main
     with:
       repo-owner: ${{ github.repository_owner }}
       repo-name: ${{ github.event.repository.name }}
