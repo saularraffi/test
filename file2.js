@@ -4,10 +4,6 @@ import { DashboardAside } from "components";
 
 import { useUserInfo } from "hooks";
 
-// this is a test
-// this is a test
-// this is a test
-
 export default function DashboardLayout({ children }) {
   const router = useRouter();
 
