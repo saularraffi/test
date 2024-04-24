@@ -7,9 +7,8 @@ import { enSiteTitle, siteDescription, siteTitle } from "@/utils";
 export const metadata = {
   title: `${siteTitle} | ${enSiteTitle}`,
   description: `${siteDescription}`,
-  icons: {
-    icon: "/favicon.ico",
-  },
+  param1: 1,
+  param2: 2,
 };
 
 export default function RootLayout({ children }) {
