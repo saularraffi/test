@@ -7,24 +7,8 @@ on:
 
 jobs:
   call-gh-pr-metrics-to-monday:
-    uses: saularraffi/test/.github/workflows/github-churn-to-monday.yml@main
+    uses: saularraffi/gh-metrics-to-monday/.github/workflows/github-churn-to-monday.yml@main
     with:
       repo-owner: ${{ github.repository_owner }}
       repo-name: ${{ github.event.repository.name }}
     secrets: inherit
-# on:
-#   push:
-#     branches:
-#       - main
-
-# jobs:
-#   call-gh-pr-metrics-to-monday:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Call GH PR Metrics to Monday
-#         uses: saularraffi/test/.github/workflows/github-churn-to-monday.yml@main
-#         with:
-#           repo-owner: saularraffi
-#           repo-name: test
-#         secrets: inherit
-
