@@ -11,9 +11,6 @@ export const metadata = {
   param2: 2,
 };
 
-// test
-// test
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

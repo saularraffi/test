@@ -9,9 +9,6 @@ export default function DashboardLayout({ children }) {
 
   const { userInfo, isVerify } = useUserInfo();
 
-  if (!isVerify || userInfo?.role === "user")
-    router.push("/admin/authentication/login");
-
   if (userInfo?.role === "admin" || userInfo?.root)
     return (
       <div className="lg:flex lg:gap-x-4 lg:px-3 lg:container lg:max-w-8xl">
@@ -24,3 +21,7 @@ export default function DashboardLayout({ children }) {
       </div>
     );
 }
+
+// test
+// test
+// test
