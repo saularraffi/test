@@ -7,8 +7,8 @@ const BannerOne = (props) => {
   //? Local components
   const BannerImage = ({ item, index }) => (
     <ResponsiveImage
-      dimensions="h-[40vw] lg:h-72 w-full"
-      className={`rounded-2xl overflow-hidden ${
+      dimensions="h-[40vw] lg:h-72 w-full lllll"
+      className={`rounded-2xl overflow-hidden lll ${
         index === 0
           ? "lg:rounded-none lg:rounded-tl-2xl"
           : index === 1
