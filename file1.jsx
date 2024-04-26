@@ -1,10 +1,10 @@
 import { ResponsiveImage } from "components";
 
 const BannerOne = (props) => {
-  //? Props test
+  //? Props
   const { data } = props;
 
-  //? Local components test
+  //? Local components
   const BannerImage = ({ item, index }) => (
     <ResponsiveImage
       dimensions="h-[40vw] lg:h-72 w-full"
@@ -14,14 +14,13 @@ const BannerOne = (props) => {
           : index === 1
           ? "lg:rounded-none lg:rounded-tr-2xl"
           : index === 2
+          ? "lg:rounded-none lg:rounded-bl-2xl"
+          : "lg:rounded-none lg:rounded-br-2xl"
       }`}
       src={item.image.url}
       alt={item.title}
     />
   );
-
-  // test
-  // test
 
   return (
     <section className="grid gap-3 px-3 lg:relative lg:grid-cols-2 lg:gap-4">
