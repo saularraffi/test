@@ -14,8 +14,6 @@ const BannerOne = (props) => {
           : index === 1
           ? "lg:rounded-none lg:rounded-tr-2xl"
           : index === 2
-          ? "lg:rounded-none lg:rounded-bl-2xl"
-          : "lg:rounded-none lg:rounded-br-2xl"
       }`}
       src={item.image.url}
       alt={item.title}
