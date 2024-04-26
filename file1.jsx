@@ -4,7 +4,7 @@ const BannerOne = (props) => {
   //? Props
   const { data } = props;
 
-  //? Local components
+  //? Local components test
   const BannerImage = ({ item, index }) => (
     <ResponsiveImage
       dimensions="h-[40vw] lg:h-72 w-full"
