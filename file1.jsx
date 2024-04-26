@@ -1,10 +1,10 @@
 import { ResponsiveImage } from "components";
 
 const BannerOne = (props) => {
-  //? Props test
+  //? Props
   const { data } = props;
 
-  //? Local components test
+  //? Local components
   const BannerImage = ({ item, index }) => (
     <ResponsiveImage
       dimensions="h-[40vw] lg:h-72 w-full"
