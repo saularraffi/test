@@ -22,6 +22,9 @@ const BannerOne = (props) => {
     />
   );
 
+  // test
+  // test
+
   return (
     <section className="grid gap-3 px-3 lg:relative lg:grid-cols-2 lg:gap-4">
       {data.map((item, index) =>
