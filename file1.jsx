@@ -1,7 +1,7 @@
 import { ResponsiveImage } from "components";
 
 const BannerOne = (props) => {
-  //? Props
+  //? Props test
   const { data } = props;
 
   //? Local components test
