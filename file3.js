@@ -1,4 +1,3 @@
-import "/styles/main.css";
 import "/styles/browser-styles.css";
 import "/styles/swiper.css";
 
@@ -15,9 +14,5 @@ export const metadata = {
 // test
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"></html>;
 }
