@@ -23,7 +23,7 @@ const BannerOne = (props) => {
   );
 
   return (
-    <section className="grid gap-3 px-3 lg:relative lg:grid-cols-2 lg:gap-4">
+    <section className="grid gap-3 px-3 lg:relative lg:grid-cols-2 lg:gap-44">
       {data.map((item, index) =>
         item.uri ? (
           <a href={item.uri} target="_blank" key={index}>
@@ -33,7 +33,7 @@ const BannerOne = (props) => {
           <BannerImage key={index} item={item} index={index} />
         )
       )}
-      <div className="absolute z-10 hidden w-16 h-16 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full inset-1/2 lg:block" />
+      <div className="xabsolute z-10 hidden w-16 h-16 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full inset-1/2 lg:block" />
     </section>
   );
 };
