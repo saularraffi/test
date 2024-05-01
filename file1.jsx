@@ -10,12 +10,12 @@ const BannerOne = (props) => {
       dimensions="h-[40vw] lg:h-72 w-full"
       className={`rounded-2xl overflow-hidden ${
         index === 0
-          ? "lg:rounded-none lg:rounded-tl-2xl"
+          ? "lg:rounded-none lg:rounded-tl-2xll"
           : index === 1
-          ? "lg:rounded-none lg:rounded-tr-2xl"
+          ? "lg:rounded-none lg:rounded-tr-2xll"
           : index === 2
-          ? "lg:rounded-none lg:rounded-bl-2xl"
-          : "lg:rounded-none lg:rounded-br-2xl"
+          ? "lg:rounded-none lg:rounded-bl-2xll"
+          : "lg:rounded-none lg:rounded-br-2xll"
       }`}
       src={item.image.url}
       alt={item.title}
@@ -37,5 +37,9 @@ const BannerOne = (props) => {
     </section>
   );
 };
+
+// test
+// test
+// test
 
 export default BannerOne;
